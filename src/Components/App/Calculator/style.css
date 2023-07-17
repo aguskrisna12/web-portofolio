@@ -1,0 +1,64 @@
+.calc{
+    height: 100vh;
+    background-color: burlywood;
+}
+
+.box-calc{
+    height: 560px;
+    width: 400px;
+    background-color: grey;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box-count{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px
+}
+
+.count-display{
+    font-size: 50px;
+    padding-right: 10px;
+}
+
+.circle-func{
+    width: 70px;
+    height: 70px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    color: black;
+}
+
+.circle-zero{
+    width: 160px;
+    background-color: aquamarine;
+    height: 70px;
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    color: black;
+}
+
+.reset-count{
+    width: 70px;
+    height: 70px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    color: black;
+}
