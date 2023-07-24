@@ -41,6 +41,11 @@ function Navbar() {
                 Calculator
               </Link>
             </li>
+            <li className="nav-item">
+              <Link to={'./tiktaktoe'} className="nav-link active" aria-current="page">
+                Tiktaktoe
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

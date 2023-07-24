@@ -5,6 +5,8 @@ import FormRegister from './Components/App/HTML-Forms-by-Building-a-Registration
 import Calculator from './Components/App/Calculator/Calculator';
 import Flexbox from './Components/App/CSS-Flexbox-by-Building-a-Photo-Gallery/Flexbox';
 import Blog from './Components/App/Tribute-Page/Blog';
+import BalanceSheet from './Components/App/Building-A-Balance-Sheet/BalanceSheet';
+import Tiktaktoe from './Components/App/Tik-Tak-Toe/Tiktaktoe';
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
         <Route path='/register-form' element={<FormRegister />}></Route>
         <Route path='/flexbox' element={<Flexbox />}></Route>
         <Route path='/blog' element={<Blog />}></Route>
+        <Route path='/balance-sheet' element={<BalanceSheet />}></Route>
+        <Route path='/tiktaktoe' element={<Tiktaktoe />}></Route>
       </Routes>
     </BrowserRouter>
   );

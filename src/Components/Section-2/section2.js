@@ -1,4 +1,5 @@
 import "./styles.css";
+import { Link } from "react-router-dom";
 import ImgBalance from "../../Images/balace-sheet.png";
 import ImgCafe from "../../Images/cafe.png";
 import ImgDocument from "../../Images/document.png";
@@ -11,7 +12,6 @@ import ImgProduct from "../../Images/product-page.png";
 import ImgForm from "../../Images/register-form.png";
 import ImgSkyline from "../../Images/sky-line.png";
 import ImgReact from '../../Images/headline-react.png'
-import { Link } from "react-router-dom";
 
 function Section2() {
   return (
